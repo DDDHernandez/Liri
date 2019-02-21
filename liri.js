@@ -6,7 +6,7 @@ var Request = require('request');
 var axios = require("axios");
 var Spotify = new Spotify(keys.spotify);
 var fs = require('fs')
-var moment = require('moment')
+//var moment = require('moment')
 //Grabbing our keyword for searches
 var Searchterm = process.argv.slice(3).join(" ");
 
